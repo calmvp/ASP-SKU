@@ -1,0 +1,16 @@
+﻿@model IEnumerable<MvcSKU.Models.Manufacturer>
+
+@{
+    ViewBag.Title = "Library";
+}
+
+<h3>Browse Manufacturers</h3>
+<p>
+    Select from @Model.Count()
+manufacturers:</p>
+<ul>
+    @foreach (var manufacturer in Model)
+    {
+        <li>@Html.ActionLink(manufacturer.Name, "Browse", new { manufacturer = manufacturer.Name })</li>
+    }
+</ul>

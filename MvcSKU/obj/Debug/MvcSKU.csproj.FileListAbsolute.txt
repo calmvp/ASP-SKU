@@ -1,0 +1,7 @@
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\bin\MvcSKU.dll
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\bin\MvcSKU.pdb
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\bin\EntityFramework.dll
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\bin\EntityFramework.xml
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\obj\Debug\MvcSKU.csprojResolveAssemblyReference.cache
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\obj\Debug\MvcSKU.dll
+c:\users\ned\documents\visual studio 2010\Projects\MvcSKU\MvcSKU\obj\Debug\MvcSKU.pdb
