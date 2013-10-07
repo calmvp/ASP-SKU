@@ -12,9 +12,16 @@ namespace MvcSKU.Controllers
         //
         // GET: /Library/
 
-        public string Index()
+        public ActionResult Index()
         {
-            return "Hello from Library Index";
+            var manufacturers = new List<Manufacturer>
+            {
+              new Manufacturer { Name = "Post" },
+              new Manufacturer { Name = "Kellogg's" },
+              new Manufacturer { Name = "Campbell's" }
+            };
+
+            return View(manufacturers);
         }
         //
         // GET: /Library/Browse?manufacturer=Post
