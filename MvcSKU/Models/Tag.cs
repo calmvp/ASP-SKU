@@ -5,10 +5,11 @@ using System.Web;
 
 namespace MvcSKU.Models
 {
-    public class Manufacturer
+    public class Tag
     {
-        public int ManufacturerId { get; set; }
-        public string Name { get; set; }
+        public int TagId { get; set; }
+        public string Key { get; set; }
+        public string Value { get; set; }
 
         public virtual ICollection<Unit> Units { get; set; }
     }
