@@ -5,7 +5,7 @@ using System.Web;
 
 namespace MvcSKU.Models
 {
-    public abstract class Unit
+    public class Unit
     {
         public int UnitId { get; set; }
         public string Name { get; set; }
